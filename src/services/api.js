@@ -18,7 +18,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://jwt-auth-backend-production-f84b.up.railway.app",
+  baseURL: "https://jwt-auth-backend-production-8eed.up.railway.app/",
 });
 
 api.interceptors.request.use((config) => {
